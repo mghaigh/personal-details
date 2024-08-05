@@ -1,0 +1,921 @@
+{
+  "model": {
+    "modelStats": {
+      "umlPackageCount": 3,
+      "umlClassifierCount": 20,
+      "umlRelationshipCount": 1,
+      "umlDiagramCount": 1
+    },
+    "umlPackages": [
+      {
+        "id": "78108fca-47cf-44bc-90ca-a7799ccf606a",
+        "name": "PersonalDetails",
+        "umlType": "UmlPackage",
+        "packageRef": {
+          "id": "",
+          "title": "root",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Personal Details",
+        "umlElement": {
+          "title": "Personal Details",
+          "stereotypes": [],
+          "notes": "Defines a model of the abstract concept of a Person, its properties and relationships. Various types specialize Person such as Adult Borrower &amp; Librarian.",
+          "tags": {}
+        },
+        "version": "1.0"
+      },
+      {
+        "id": "fddba952-32d5-4cf9-a835-0efbc35802ad",
+        "name": "CoreTypes",
+        "umlType": "UmlPackage",
+        "packageRef": {
+          "id": "",
+          "title": "root",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types",
+        "umlElement": {
+          "title": "Core Types",
+          "stereotypes": [],
+          "notes": "Updated to add Error type",
+          "tags": {}
+        },
+        "version": "1.1"
+      },
+      {
+        "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+        "name": "Primitives",
+        "umlType": "UmlPackage",
+        "packageRef": {
+          "id": "fddba952-32d5-4cf9-a835-0efbc35802ad",
+          "title": "Core Types",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "Primitives",
+          "stereotypes": [],
+          "notes": "Initial version of Primitive types library.",
+          "tags": {}
+        },
+        "version": "1.0"
+      }
+    ],
+    "umlClassifiers": [
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlClass",
+        "id": "544d28c8-26e5-4b31-99ba-b1016cdd1f17",
+        "name": "Address",
+        "umlType": "UmlClass",
+        "packageRef": {
+          "id": "78108fca-47cf-44bc-90ca-a7799ccf606a",
+          "title": "Personal Details",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Personal Details",
+        "umlElement": {
+          "title": "Address",
+          "stereotypes": [],
+          "notes": "An Address that Borrowers currently or previously have lived at.",
+          "tags": {}
+        },
+        "edges": [
+          {
+            "type": "tech.apigeneration.umlmodels.types.edge.ClassToClassEdge",
+            "id": "cf82f858-689a-41d4-a049-0defcdd808a7",
+            "notes": null,
+            "umlType": "ClassToClassEdge",
+            "title": "",
+            "thisEnd": {
+              "classRef": {
+                "id": "544d28c8-26e5-4b31-99ba-b1016cdd1f17",
+                "title": "Address"
+              },
+              "rolePhrase": "currently lives at",
+              "multiplicity": {
+                "lowerBound": {
+                  "bound": "1"
+                },
+                "upperBound": {
+                  "bound": "1"
+                }
+              },
+              "aggregationType": "UmlNone",
+              "isNavigable": true,
+              "tags": {},
+              "notes": ""
+            },
+            "otherEnd": {
+              "classRef": {
+                "id": "ef153724-f372-4c70-be09-e998c0a97bc2",
+                "title": "Person"
+              },
+              "rolePhrase": "is currently lived at by",
+              "multiplicity": {
+                "lowerBound": {
+                  "bound": "1"
+                },
+                "upperBound": {
+                  "bound": "*"
+                }
+              },
+              "aggregationType": "UmlNone",
+              "isNavigable": true,
+              "tags": {},
+              "notes": ""
+            },
+            "isReflexive": false,
+            "tags": {},
+            "aggregationRole": "NoneToNone",
+            "assocClassEnd": null
+          }
+        ],
+        "specializesTree": [],
+        "specializedBy": [],
+        "realizes": [],
+        "attributes": [
+          {
+            "id": "ed725e2f-0ef9-4a7b-8972-1718ecdd7d32",
+            "umlType": "UmlAttribute",
+            "name": "street",
+            "umlElement": {
+              "title": "street",
+              "stereotypes": [],
+              "tags": {}
+            },
+            "typeRef": {
+              "id": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+              "title": "String",
+              "umlType": "UmlPrimitive"
+            },
+            "multiplicity": {
+              "lowerBound": {
+                "bound": "1"
+              },
+              "upperBound": {
+                "bound": "1"
+              }
+            }
+          },
+          {
+            "id": "029ffa14-69b9-4966-aade-1a6372780a50",
+            "umlType": "UmlAttribute",
+            "name": "town",
+            "umlElement": {
+              "title": "town",
+              "stereotypes": [],
+              "tags": {}
+            },
+            "typeRef": {
+              "id": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+              "title": "String",
+              "umlType": "UmlPrimitive"
+            },
+            "multiplicity": {
+              "lowerBound": {
+                "bound": "1"
+              },
+              "upperBound": {
+                "bound": "1"
+              }
+            }
+          },
+          {
+            "id": "cf801c1d-5542-467c-89ec-b9e90a48bdd8",
+            "umlType": "UmlAttribute",
+            "name": "country",
+            "umlElement": {
+              "title": "country",
+              "stereotypes": [],
+              "tags": {}
+            },
+            "typeRef": {
+              "id": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+              "title": "String",
+              "umlType": "UmlPrimitive"
+            },
+            "multiplicity": {
+              "lowerBound": {
+                "bound": "1"
+              },
+              "upperBound": {
+                "bound": "1"
+              }
+            }
+          },
+          {
+            "id": "30f76974-00e4-47eb-8b9b-ce1bfead05a0",
+            "umlType": "UmlAttribute",
+            "name": "currentlyLivesAtCount",
+            "umlElement": {
+              "title": "currently lives at count",
+              "stereotypes": [],
+              "tags": {}
+            },
+            "typeRef": {
+              "id": "bfe6c7b0-9b2a-45b7-b2e6-c02fc7c34cda",
+              "title": "Int",
+              "umlType": "UmlPrimitive"
+            },
+            "multiplicity": {
+              "lowerBound": {
+                "bound": "1"
+              },
+              "upperBound": {
+                "bound": "1"
+              }
+            },
+            "isDerived": true
+          }
+        ],
+        "operations": [],
+        "classActions": [],
+        "isAbstract": false,
+        "isImmutable": false,
+        "isAssociationClass": false
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlClass",
+        "id": "ef153724-f372-4c70-be09-e998c0a97bc2",
+        "name": "Person",
+        "umlType": "UmlClass",
+        "packageRef": {
+          "id": "78108fca-47cf-44bc-90ca-a7799ccf606a",
+          "title": "Personal Details",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Personal Details",
+        "umlElement": {
+          "title": "Person",
+          "stereotypes": [],
+          "tags": {}
+        },
+        "edges": [
+          {
+            "type": "tech.apigeneration.umlmodels.types.edge.ClassToClassEdge",
+            "id": "cf82f858-689a-41d4-a049-0defcdd808a7",
+            "notes": null,
+            "umlType": "ClassToClassEdge",
+            "title": "",
+            "thisEnd": {
+              "classRef": {
+                "id": "ef153724-f372-4c70-be09-e998c0a97bc2",
+                "title": "Person"
+              },
+              "rolePhrase": "is currently lived at by",
+              "multiplicity": {
+                "lowerBound": {
+                  "bound": "1"
+                },
+                "upperBound": {
+                  "bound": "*"
+                }
+              },
+              "aggregationType": "UmlNone",
+              "isNavigable": true,
+              "tags": {},
+              "notes": ""
+            },
+            "otherEnd": {
+              "classRef": {
+                "id": "544d28c8-26e5-4b31-99ba-b1016cdd1f17",
+                "title": "Address"
+              },
+              "rolePhrase": "currently lives at",
+              "multiplicity": {
+                "lowerBound": {
+                  "bound": "1"
+                },
+                "upperBound": {
+                  "bound": "1"
+                }
+              },
+              "aggregationType": "UmlNone",
+              "isNavigable": true,
+              "tags": {},
+              "notes": ""
+            },
+            "isReflexive": false,
+            "tags": {},
+            "aggregationRole": "NoneToNone",
+            "assocClassEnd": null
+          }
+        ],
+        "specializesTree": [],
+        "specializedBy": [],
+        "realizes": [],
+        "attributes": [
+          {
+            "id": "b0115a10-5d4c-4a91-a153-e059268c826f",
+            "umlType": "UmlAttribute",
+            "name": "surname",
+            "umlElement": {
+              "title": "surname",
+              "stereotypes": [],
+              "tags": {}
+            },
+            "typeRef": {
+              "id": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+              "title": "String",
+              "umlType": "UmlPrimitive"
+            },
+            "multiplicity": {
+              "lowerBound": {
+                "bound": "1"
+              },
+              "upperBound": {
+                "bound": "1"
+              }
+            }
+          },
+          {
+            "id": "c5ef08ec-7f5c-4493-b8f4-6bb51c9c027b",
+            "umlType": "UmlAttribute",
+            "name": "givenName",
+            "umlElement": {
+              "title": "given name",
+              "stereotypes": [],
+              "tags": {}
+            },
+            "typeRef": {
+              "id": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+              "title": "String",
+              "umlType": "UmlPrimitive"
+            },
+            "multiplicity": {
+              "lowerBound": {
+                "bound": "1"
+              },
+              "upperBound": {
+                "bound": "1"
+              }
+            }
+          }
+        ],
+        "operations": [],
+        "classActions": [],
+        "isAbstract": true,
+        "isImmutable": false,
+        "isAssociationClass": false
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlCompound",
+        "id": "17309160-88f3-4bfe-95aa-c8e8dbf1ac25",
+        "name": "Error",
+        "umlType": "UmlCompound",
+        "packageRef": {
+          "id": "fddba952-32d5-4cf9-a835-0efbc35802ad",
+          "title": "Core Types",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types",
+        "umlElement": {
+          "title": "Error",
+          "stereotypes": [],
+          "notes": "An RFC 7807 compliant type to report an error to the client.",
+          "tags": {}
+        },
+        "attributes": [
+          {
+            "id": "1530c170-f354-4a34-917c-3186dcba772d",
+            "umlType": "UmlAttribute",
+            "name": "detail",
+            "umlElement": {
+              "title": "detail",
+              "stereotypes": [],
+              "tags": {}
+            },
+            "typeRef": {
+              "id": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+              "title": "String",
+              "umlType": "UmlPrimitive"
+            },
+            "multiplicity": {
+              "lowerBound": {
+                "bound": "1"
+              },
+              "upperBound": {
+                "bound": "1"
+              }
+            }
+          },
+          {
+            "id": "ff69ffa1-5428-4252-b775-10f87f684376",
+            "umlType": "UmlAttribute",
+            "name": "type",
+            "umlElement": {
+              "title": "type",
+              "stereotypes": [],
+              "tags": {}
+            },
+            "typeRef": {
+              "id": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+              "title": "String",
+              "umlType": "UmlPrimitive"
+            },
+            "multiplicity": {
+              "lowerBound": {
+                "bound": "0"
+              },
+              "upperBound": {
+                "bound": "1"
+              }
+            }
+          },
+          {
+            "id": "41f1f212-b544-44c3-93d3-785bac4dbcd9",
+            "umlType": "UmlAttribute",
+            "name": "title",
+            "umlElement": {
+              "title": "title",
+              "stereotypes": [],
+              "tags": {}
+            },
+            "typeRef": {
+              "id": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+              "title": "String",
+              "umlType": "UmlPrimitive"
+            },
+            "multiplicity": {
+              "lowerBound": {
+                "bound": "1"
+              },
+              "upperBound": {
+                "bound": "1"
+              }
+            }
+          },
+          {
+            "id": "892210d7-71ad-46f3-88b8-927a43718406",
+            "umlType": "UmlAttribute",
+            "name": "status",
+            "umlElement": {
+              "title": "status",
+              "stereotypes": [],
+              "tags": {}
+            },
+            "typeRef": {
+              "id": "bfe6c7b0-9b2a-45b7-b2e6-c02fc7c34cda",
+              "title": "Int",
+              "umlType": "UmlPrimitive"
+            },
+            "multiplicity": {
+              "lowerBound": {
+                "bound": "1"
+              },
+              "upperBound": {
+                "bound": "1"
+              }
+            }
+          },
+          {
+            "id": "1fd3f140-c6f2-4b9f-8b12-c9cb653ca98a",
+            "umlType": "UmlAttribute",
+            "name": "instance",
+            "umlElement": {
+              "title": "instance",
+              "stereotypes": [],
+              "tags": {}
+            },
+            "typeRef": {
+              "id": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+              "title": "String",
+              "umlType": "UmlPrimitive"
+            },
+            "multiplicity": {
+              "lowerBound": {
+                "bound": "0"
+              },
+              "upperBound": {
+                "bound": "1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "73383101-232d-4d80-b7c0-fc4f266f6a4b",
+        "name": "Boolean",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "Boolean",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "A representation of objects that can have two values: true and false.",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "3968924b-0a9e-4b6a-9bfa-41f6df04cf8f",
+        "name": "Byte",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "Byte",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "A signed 8-bit integer, ranges from -128 to 127",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "02057cac-b2b5-48be-8b60-9523194145a3",
+        "name": "Char",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "Char",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "An single character.",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "861a642b-1887-4e5d-8af0-0516ac5e9756",
+        "name": "Date",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "Date",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "An ISO 8601 standard representation of a date.",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "590ab0a5-c722-4aa2-a1f5-0246962a512c",
+        "name": "DateTime",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "DateTime",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "An ISO 8601 standard representation of a date &amp; time.",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "3678dce5-6d2e-4b81-ae7a-3e5c6a7f67bc",
+        "name": "Double",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "Double",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "A 64-bit floating point number that adheres to the IEEE 754 double-precision standard .\n",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "674c8cd0-7a27-41d9-96e4-07f30ed6976a",
+        "name": "Fixed",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "Fixed",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "Representation of fractional number using integer with defined specific number of bits reserved for the integer part and a specific number of bits reserved for the fractional part.",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "921f8847-3d34-4f5b-82ea-ba728b507e66",
+        "name": "Float",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "Float",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "A 32-bit floating point number that adheres to the IEEE 754 single-precision standard .",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "d47f4c8d-96a3-40f5-a854-9f9af5a9710a",
+        "name": "ID",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "ID",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "A unique identifier within the scope of the relevant instance.",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "bfe6c7b0-9b2a-45b7-b2e6-c02fc7c34cda",
+        "name": "Int",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "Int",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "A signed 32-bit integer, ranges from --2,147,483,648 to 2,147,483,647\n",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "7a911d76-4ad3-43ab-b18d-e88547653afb",
+        "name": "Long",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "Long",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "A signed 64-bit integer, ranges from -9,223,372,036,854,775,808 to9,223,372,036,854,775,807",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "2fbde1cf-b50c-4d0f-953c-9fcf51d2baf4",
+        "name": "Short",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "Short",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "A signed 16-bit integer, ranges from -32768 to 32767\n",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+        "name": "String",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "String",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "A sequence of characters.",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "a8104bb5-5dc6-45b3-8e23-d0de48b0004b",
+        "name": "UNDEFINED",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "UNDEFINED",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "Used by the Model Transform Tools (MTT) to show where no type has been defined within a UML model.",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "35c65090-3331-464b-8c3b-273e7dd7f6fa",
+        "name": "URI",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "URI",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "A representation of a Uniform Resource Identifier.",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "76f2f48e-360c-4a16-bf8e-8b5737f69a1f",
+        "name": "UUID",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "UUID",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "A Universally Unique Identifier.",
+          "tags": {}
+        }
+      },
+      {
+        "type": "tech.apigeneration.umlmodels.types.UmlPrimitive",
+        "id": "bf9107b3-2ca8-4776-98df-367dc249b48c",
+        "name": "Void",
+        "umlType": "UmlPrimitive",
+        "packageRef": {
+          "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+          "title": "Primitives",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Core Types/Primitives",
+        "umlElement": {
+          "title": "Void",
+          "stereotypes": [
+            "primitive"
+          ],
+          "notes": "A void or null type. Often used as the return type for a function that does not return a defined type.",
+          "tags": {}
+        }
+      }
+    ],
+    "umlRelationships": [
+      {
+        "type": "tech.apigeneration.umlmodels.types.umlrelationship.UmlAssociation",
+        "id": "cf82f858-689a-41d4-a049-0defcdd808a7",
+        "name": "",
+        "umlType": "UmlAssociation",
+        "umlElement": {
+          "title": "",
+          "stereotypes": [],
+          "tags": {}
+        },
+        "endA": {
+          "nodeRef": {
+            "id": "ef153724-f372-4c70-be09-e998c0a97bc2",
+            "title": "Person",
+            "umlType": "UmlClass"
+          },
+          "umlElement": {
+            "title": "",
+            "stereotypes": [],
+            "tags": {}
+          },
+          "multiplicity": {
+            "lowerBound": {
+              "bound": "1"
+            },
+            "upperBound": {
+              "bound": "*"
+            }
+          },
+          "rolePhrase": "is currently lived at by",
+          "isNavigable": true,
+          "aggregationType": "UmlNone",
+          "tags": {}
+        },
+        "endB": {
+          "nodeRef": {
+            "id": "544d28c8-26e5-4b31-99ba-b1016cdd1f17",
+            "title": "Address",
+            "umlType": "UmlClass"
+          },
+          "umlElement": {
+            "title": "",
+            "stereotypes": [],
+            "tags": {}
+          },
+          "multiplicity": {
+            "lowerBound": {
+              "bound": "1"
+            },
+            "upperBound": {
+              "bound": "1"
+            }
+          },
+          "rolePhrase": "currently lives at",
+          "isNavigable": true,
+          "aggregationType": "UmlNone",
+          "tags": {}
+        },
+        "associationClassEnd": null,
+        "associationType": "UmlAssociation"
+      }
+    ],
+    "umlDiagrams": [
+      {
+        "id": "72c976ab-521d-4984-ae7f-485449a2f3a0",
+        "name": "PersonalDetails",
+        "umlType": "UmlDiagram",
+        "packageRef": {
+          "id": "78108fca-47cf-44bc-90ca-a7799ccf606a",
+          "title": "Personal Details",
+          "umlType": "UmlPackage"
+        },
+        "pathToRoot": "/Personal Details",
+        "umlElement": {
+          "title": "Personal Details",
+          "stereotypes": [],
+          "notes": "The abstract Person type, which is specialized by the Borrower and Librarian types, and its associations",
+          "tags": {}
+        }
+      }
+    ]
+  }
+}

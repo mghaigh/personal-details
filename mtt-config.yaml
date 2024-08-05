@@ -1,0 +1,16 @@
+name: "personal-details"
+version: "1.0"
+baseDir: ${user.dir}
+modelDirName: "uml-model"
+imagesDirName: "images"
+modelFileType: "json"
+types: "Types"
+dependencySpecs:
+  - dirName: "C:/Users/martin/Projects/models/core-types/uml-model"
+    fileName: "core-types"
+    fileType: "json"
+    version: "1.0.0"
+transforms:
+  eaXmiLoader:
+      configPath: "config/loaders/ea-xmi/application.yaml" # This is the path relative to the basePath
+
