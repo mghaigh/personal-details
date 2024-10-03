@@ -1,16 +1,18 @@
 name: "personal-details"
 version: "1.0"
-baseDir: ${user.dir}
-modelDirName: "uml-model"
-imagesDirName: "images"
+modelUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-details.xml"
+imagesFolder: "images"
 modelFileType: "json"
 types: "Types"
-dependencySpecs:
-  - dirName: "C:/Users/martin/Projects/models/core-types/uml-model"
-    fileName: "core-types"
-    fileType: "json"
+dependencies:
+  - modelUrl: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types-dto.json"
+#  - modelUrl: "file:///C:/Users/martin/Projects/models/personal-details/uml-model/personal-details-dto.json"
     version: "1.0.0"
+transformsFolder: "generated"
 transforms:
   eaXmiLoader:
-      configPath: "config/loaders/ea-xmi/application.yaml" # This is the path relative to the basePath
+    configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/loaders/ea-xmi/config.yaml"
+#    configUrl: "file:///C:/Users/martin/Projects/models/personal-details/config/generators/openapi/config.yaml"
+    transformFolder: "mtt-models"
+
 
