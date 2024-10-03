@@ -10,7 +10,7 @@ dependencies:
     version: "1.0.0"
 transformsFolder: "generated"
 transforms:
-  eaXmiLoader:
+  eaxmiloader:
     configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/loaders/ea-xmi/config.yaml"
 #    configUrl: "file:///C:/Users/martin/Projects/models/personal-details/config/generators/openapi/config.yaml"
     transformFolder: "mtt-models"
