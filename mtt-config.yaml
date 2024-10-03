@@ -8,11 +8,11 @@ dependencies:
   - modelUrl: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types-dto.json"
 #  - modelUrl: "file:///C:/Users/martin/Projects/models/personal-details/uml-model/personal-details-dto.json"
     version: "1.0.0"
-transformsFolder: "generated"
+outputFolder: "generated"
 transforms:
   eaxmiloader:
     configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/loaders/ea-xmi/application.yaml"
 #    configUrl: "file:///C:/Users/martin/Projects/models/personal-details/config/generators/openapi/config.yaml"
-    transformFolder: "mtt-models"
+    outputFolder: "mtt-models"
 
 
