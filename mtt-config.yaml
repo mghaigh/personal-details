@@ -1,9 +1,10 @@
 name: "personal-details"
 version: "1.0"
-modelUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-details.xml"
+ModelUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-details.xml"
 imagesFolder: "images"
-modelFileType: "json"
+dtoModelFileType: "json"
 types: "Types"
+outputFolder: "generated"
 dependencies:
   - modelUrl: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types-dto.json"
 #  - modelUrl: "file:///C:/Users/martin/Projects/models/personal-details/uml-model/personal-details-dto.json"
@@ -12,7 +13,11 @@ outputFolder: "generated"
 transforms:
   eaxmiloader:
     configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/loaders/ea-xmi/application.yaml"
-#    configUrl: "file:///C:/Users/martin/Projects/models/personal-details/config/generators/openapi/config.yaml"
     outputFolder: "mtt-models"
+#    configUrl: "file:///C:/Users/martin/Projects/models/personal-details/config/generators/openapi/config.yaml"
+#  aoco:
+#    configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/generators/aoco/aoco.yaml"
+#    outputFolder: "specs/aoco"
+
 
 
