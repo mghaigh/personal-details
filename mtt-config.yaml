@@ -1,6 +1,6 @@
 name: "personal-details"
 version: "1.0"
-ModelUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-details.xml"
+modelUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-details.xml"
 imagesFolder: "images"
 dtoModelFileType: "json"
 types: "Types"
