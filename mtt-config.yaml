@@ -5,7 +5,7 @@ imagesFolder: "images"
 modelFileType: "json"
 types: "Types"
 dependencies:
-  - modelUrl: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types-dto.json"
+  - modelUrl: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types.json"
 #  - modelUrl: "file:///C:/Users/martin/Projects/models/personal-details/uml-model/personal-details-dto.json"
     version: "1.0.0"
 outputFolder: "generated"
