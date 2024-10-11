@@ -1,0 +1,11 @@
+typeMap:
+  "Boolean": "bool"
+  "Date": "timestamp"
+  "DateTime": "timestamp"
+  "Duration": "duration"
+  "Float": "real"
+  "Int": "int32"
+  "Long": "int64"
+  "String": "string"
+  "Token": "token"
+  "URI": "uri"
