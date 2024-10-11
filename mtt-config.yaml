@@ -14,8 +14,8 @@ transforms:
     configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/loaders/ea-xmi/application.yaml"
     outputFolder: "mtt-models"
 #    configUrl: "file:///C:/Users/martin/Projects/models/personal-details/config/generators/openapi/config.yaml"
-#  aoco:
-#    configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/generators/aoco/aoco.yaml"
+  aoco:
+    configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/generators/aoco/aoco.yaml"
 #    outputFolder: "specs/aoco"
 
 
