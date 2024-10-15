@@ -1,0 +1,46 @@
+@dc:Defines a model of the abstract concept of a Person, its properties and relationships. Various types specialize Person such as Adult Borrower &amp; Librarian.
+vocabulary <http://example.com/tutorial1/vocabulary/pizza#> as pizza {
+	@rdfs:comment An Address that Borrowers currently or previously have lived at.
+	concept Address
+
+		concept Person
+
+		scalar property street [
+		domain String
+		range xsd:string
+		] 
+
+		scalar property town [
+		domain String
+		range xsd:string
+		] 
+
+		scalar property country [
+		domain String
+		range xsd:string
+		] 
+
+		scalar property currentlyLivesAtCount [
+		domain Int
+		range xsd:integer
+		] 
+
+		scalar property surname [
+		domain String
+		range xsd:string
+		] 
+
+		scalar property givenName [
+		domain String
+		range xsd:string
+		] 
+
+		relation entity  [
+		from Person
+		to Address
+		forward currentlyLivesAt
+		reverse isCurrentlyLivedAtBy
+		inverse functional
+		]
+
+}
