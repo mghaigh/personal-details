@@ -1,4 +1,6 @@
-# iri: "<http://example.com/tutorial1/vocabulary/pizza#> as pizza"
+namespace:
+  iri: "http://example.com/tutorial1/vocabulary/pizza#"
+  ns:  "pizza"
 typeMap:
   "Boolean": "xsd:boolean"
   "DateTime": "xsd:datetime"
