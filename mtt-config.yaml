@@ -16,7 +16,10 @@ transforms:
 #    configUrl: "file:///C:/Users/martin/Projects/models/personal-details/config/generators/openapi/config.yaml"
   aoco:
     configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/generators/aoco/aoco.yaml"
-#    outputFolder: "specs/aoco"
+    outputFolder: "specs/aoco"
+  oml:
+    configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/generators/oml/oml.yaml"
+    outputFolder: "specs/oml"
 
 
 
