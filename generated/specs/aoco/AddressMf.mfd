@@ -1,0 +1,12 @@
+     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MicroFormat root="Address" version="1.0">
+    		<Description>An Address that Borrowers currently or previously have lived at.</Description>
+    <Entity name="Address">
+		<Primitive id="undefined" name="street" type="string" multiplicity="required" xmlType="undefined"/>
+		<Primitive id="undefined" name="town" type="string" multiplicity="required" xmlType="undefined"/>
+		<Primitive id="undefined" name="country" type="string" multiplicity="required" xmlType="undefined"/>
+		<Primitive id="undefined" name="currentlyLivesAtCount" type="int32" multiplicity="required" xmlType="undefined"/>
+    </Entity>
+
+</MicroFormat>
+
