@@ -9,11 +9,12 @@ dependencies:
 #  - modelUrl: "file:///C:/Users/martin/Projects/models/personal-details/uml-model/personal-details-dto.json"
     version: "1.0.0"
 outputFolder: "generated"
-transforms:
-  eaxmiloader:
-    configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/loaders/ea-xmi/application.yaml"
-    outputFolder: "mtt-models"
+loader:
+  name: "eaxmiloader"
+  configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/loaders/ea-xmi/application.yaml"
+  outputFolder: "mtt-models"
 #    configUrl: "file:///C:/Users/martin/Projects/models/personal-details/config/generators/openapi/config.yaml"
+transforms:
   aoco:
     configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/generators/aoco/aoco.yaml"
     outputFolder: "specs/aoco"
