@@ -4,6 +4,10 @@ modelUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-deta
 imagesFolder: "images"
 dtoModelFileType: "json"
 types: "Types"
+defaults:
+  classActions:
+    - CREATE
+    - READ
 dependencies:
   - modelUrl: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types.json"
 #  - modelUrl: "file:///C:/Users/martin/Projects/models/personal-details/uml-model/personal-details-dto.json"
@@ -14,7 +18,7 @@ loader:
   configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/loaders/ea-xmi/application.yaml"
   outputFolder: "mtt-models"
 #    configUrl: "file:///C:/Users/martin/Projects/models/personal-details/config/generators/openapi/config.yaml"
-transforms:
+generators:
   aoco:
     configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/generators/aoco/aoco.yaml"
     outputFolder: "specs/aoco"
