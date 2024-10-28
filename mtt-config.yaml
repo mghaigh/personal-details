@@ -3,7 +3,7 @@ modelUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-deta
 imagesDir: "images"
 outputUrl: "file:///C:/Users/martin/Projects/models/personal-details/generated"
 modelConfig:
-  typesPackageName: "Types"
+  typesPackageName: "Personal Details"
   defaults:
     classActions:
       - CREATE
