@@ -1,9 +1,7 @@
-name: "personal-details"
 version: "1.0"
 modelUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-details.xml"
-dtoModelFileType: "json"
 imagesDir: "images"
-outputDir: "generated"
+outputUrl: "file:///C:/Users/martin/Projects/models/personal-details/generated"
 modelConfig:
   typesPackageName: "Types"
   defaults:
