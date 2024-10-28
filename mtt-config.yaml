@@ -11,7 +11,7 @@ modelConfig:
       - READ
 dependencies:
 #  - modelUrl: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types.json"
-  - modelUrl: "file:///C:/Users/martin/Projects/models/personal-details/uml-model/personal-details-dto.json"
+  - modelUrl: "file:///C:/Users/martin/Projects/models/core-types/generated/core-types.json"
     version: "1.0.0"
 loader:
   configUrl: "https://github.com/mghaigh/personal-details/blob/master/config/loaders/ea-xmi/application.yaml"
