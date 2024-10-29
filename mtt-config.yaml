@@ -1,8 +1,8 @@
 version: "1.0"
 modelUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-details.xml"
 imagesDir: "images"
-outputUrl: "https://github.com/mghaigh/personal-details/tree/master/generated"
-# outputUrl: "file:///C:/Users/martin/Projects/models/personal-details/generated"
+# outputUrl: "https://github.com/mghaigh/personal-details/tree/master/generated"
+outputUrl: "file:///C:/Users/martin/Projects/models/personal-details/generated"
 modelConfig:
   typesPackageName: "Personal Details"
   defaults:
