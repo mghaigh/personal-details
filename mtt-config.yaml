@@ -2,10 +2,7 @@ modelFileUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-
 imagesDir: "images"
 # outputUrl: "https://github.com/mghaigh/personal-details/tree/master/generated"
 # outputUrl: "file:///C:/Users/martin/Projects/models/personal-details/generated"
-outputDir:
-  repoType: "file"
-  repoName: "personal-details"
-  dirName: "generated/test"
+outputDirUrl: "file:/personal-details/generated/test"
 modelConfig:
   typesPackageName: "Personal Details"
   defaults:
