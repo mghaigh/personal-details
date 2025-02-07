@@ -18,13 +18,9 @@ loader:
   outputSubDir: "mtt-models"
 #    configUrl: "file:///C:/Users/martin/Projects/models/personal-details/config/generators/openapi/config.yaml"
 generators:
-  aoco:
-    configFileUrl: "https://github.com/mghaigh/personal-details/blob/master/config/generators/aoco/aoco.yaml"
-    outputSubDir: "specs/aoco"
-  oml:
-    configFileUrl: "https://github.com/mghaigh/personal-details/blob/master/config/generators/oml/oml.yaml"
-    outputSubDir: "specs/oml"
-
+  mkdocs:
+    configFileUrl: "https://github.com/mghaigh//personal-details/blob/master/config/generators/mkdoc/config.yaml"
+    outputSubDir: "docs/mkdocs"
 
 
 
