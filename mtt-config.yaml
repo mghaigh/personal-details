@@ -10,13 +10,12 @@ modelConfig:
       - CREATE
       - READ
 dependencies:
-  - modelFileUrl: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types.json"
-#  - modelFileUrl: "file:/core-types/generated/core-types.json"
+  "Core Types":
+    modelFileUrl: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types.json"
     version: "1.0.0"
 loader:
   configFileUrl: "https://github.com/mghaigh/personal-details/blob/master/config/loaders/ea-xmi/application.yaml"
   outputSubDir: "mtt-models"
-#    configUrl: "file:///C:/Users/martin/Projects/models/personal-details/config/generators/openapi/config.yaml"
 generators:
   mkdocs:
     configFileUrl: "https://github.com/mghaigh//personal-details/blob/master/config/generators/mkdoc/config.yaml"
