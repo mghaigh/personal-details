@@ -1,9 +1,0 @@
-namespace:
-  iri: "http://example.com/tutorial1/vocabulary/pizza#"
-  ns:  "pizza"
-typeMap:
-  "Boolean": "xsd:boolean"
-  "DateTime": "xsd:datetime"
-  "Float": "xsd:decimal"
-  "Int": "xsd:integer"
-  "String": "xsd:string"

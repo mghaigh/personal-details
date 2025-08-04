@@ -1,7 +1,0 @@
-xmiFilePath:  "" # This is the path relative to the basePath
-xmiFileType: "xml"
-defaults:
-  type: Void
-  parameters:
-    lowerValue: "0"
-    upperValue: "1"
