@@ -1,10 +1,10 @@
 modelFileUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-details.xml"
-imagesDir: "images"
 outputDirUrl: "https://github.com/mghaigh/personal-details/tree/master/generated/"
 # outputUrl: "file:///C:/Users/martin/Projects/models/personal-details/generated"
 # outputDirUrl: "file:/personal-details/generated/test/"
 modelConfig:
-  typesPackageName: "Personal Details"
+  packageNames:
+  typesPackage: "Personal Details"
   defaults:
     classActions:
       - CREATE
