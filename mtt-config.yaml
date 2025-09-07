@@ -1,7 +1,7 @@
 modelFileUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-details.xml"
 outputDirUrl: "https://github.com/mghaigh/personal-details/tree/master/generated/"
 modelConfig:
-#  packageNames:
+  packageNames:
     typesPackage: "Personal Details"
 dependencies:
   "Core Types":
