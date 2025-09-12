@@ -7,7 +7,7 @@ dependencies:
   "Core Types":
     modelFileUrl: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types.json"
     version: "1.0.0"
-loader:
+# loader:
   configFileUrl: "https://github.com/mghaigh/common-config/blob/master/config/loaders/ea-xmi/config.yaml"
   outputSubDir: "mtt-models"
 generators:
