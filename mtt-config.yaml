@@ -11,9 +11,9 @@ dependencies:
   configFileUrl: "https://github.com/mghaigh/common-config/blob/master/config/loaders/ea-xmi/config.yaml"
   outputSubDir: "mtt-models"
 generators:
-  mkdocs:
+  # mkdocs:
+  - generatorUrl: "http://localhost:9020"
     configFileUrl: "https://github.com/mghaigh/common-config/blob/master/config/generators/mkdoc/config.yaml"
-    outputSubDir: "docs/mkdocs"
 
 
 
