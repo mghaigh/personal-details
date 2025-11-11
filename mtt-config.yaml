@@ -8,7 +8,7 @@ dependencies:
     modelFileUrl: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types.json"
     version: "1.0.0"
 loader:
-  generatorUrl: "http://localhost:7010"
+  loaderUrl: "http://localhost:7010"
   configFileUrl: "https://github.com/mghaigh/common-config/blob/master/config/loaders/ea-xmi/config.yaml"
 generators:
   # mkdocs:
