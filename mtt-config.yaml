@@ -1,19 +1,19 @@
-modelFileUrl: "https://github.com/mghaigh/personal-details/blob/master/personal-details.xml"
-outputDirUrl: "https://github.com/mghaigh/personal-details/tree/master/generated/"
+modelFileURI: "https://github.com/mghaigh/personal-details/blob/master/personal-details.xml"
+outputDirURI: "https://github.com/mghaigh/personal-details/tree/master/generated/"
 modelConfig:
   packageNames:
     typesPackage: "Personal Details"
 dependencies:
   "Core Types":
-    modelFileUrl: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types.json"
+    modelFileURI: "https://github.com/mghaigh/core-types/blob/master/generated/mtt-models/core-types.json"
     version: "1.0.0"
 loader:
-  loaderUrl: "http://localhost:7010"
-  configFileUrl: "https://github.com/mghaigh/common-config/blob/master/config/loaders/ea-xmi/config.yaml"
+  loaderURL: "http://localhost:7010"
+  configFileURI: "https://github.com/mghaigh/common-config/blob/master/config/loaders/ea-xmi/config.yaml"
 generators:
   # mkdocs:
-  - generatorUrl: "http://localhost:9020"
-    configFileUrl: "https://github.com/mghaigh/common-config/blob/master/config/generators/mkdoc/config.yaml"
+  - generatorURL: "http://localhost:9020"
+    configFileURI: "https://github.com/mghaigh/common-config/blob/master/config/generators/mkdoc/config.yaml"
 
 
 
