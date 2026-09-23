@@ -1,19 +1,19 @@
-modelFilePath: "personal-details/personal-details.xml"
+modelFilePath: "mghaigh/personal-details/personal-details.xml"
 modelConfig:
   packageNames:
     typesPackage: "Personal Details"
   typesPackageName: ""
 dependencies:
   "Core Types":
-    modelFilePath: "core-types/${MTT_MODEL_FILE}"
+    modelFilePath: "mghaigh/core-types/${MTT_MODEL_FILE}"
     version: "1.0.0"
 loader:
   loaderURL: "http://localhost:7010"
-  configFilePath: "common-config/config/loaders/ea-xmi/config.yaml"
+  configFilePath: "mghaigh/common-config/config/loaders/ea-xmi/config.yaml"
 generators:
   #  MkDocs:
   - generatorURL: "http://localhost:9020"
-    configFilePath: "common-config/config/generators/mkdoc/config.yaml"
+    configFilePath: "mghaigh/common-config/config/generators/mkdoc/config.yaml"
   #  Screening:
   - generatorURL: "http://localhost:9035"
-    configFilePath: "common-config/config/generators/reversed/config.yaml"
+    configFilePath: "mghaigh/common-config/config/generators/reversed/config.yaml"
