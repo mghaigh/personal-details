@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1">
-	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5" exporterID="1712"/>
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5" exporterID="1716"/>
 	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
 		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_78108FCA_47CF_44bc_90CA_A7799CCF606A" name="Personal Details" visibility="public">
 			<packagedElement xmi:type="uml:Class" xmi:id="EAID_544D28C8_26E5_4b31_99BA_B1016CDD1F17" name="Address" visibility="public">
@@ -58,15 +58,15 @@
 			<element xmi:idref="EAPK_78108FCA_47CF_44bc_90CA_A7799CCF606A" xmi:type="uml:Package" name="Personal Details" scope="public">
 				<model package2="EAID_78108FCA_47CF_44bc_90CA_A7799CCF606A" package="EAPK_4BF7025D_7FB0_4dee_AC42_267C448A4F07" tpos="0" ea_localid="2" ea_eleType="package"/>
 				<properties documentation="Defines a model of the abstract concept of a Person, its properties and relationships. Various types specialize Person such as Adult Borrower &amp;amp; Librarian." isSpecification="false" sType="Package" nType="0" scope="public"/>
-				<project author="martin" version="1.0" phase="1.0" created="2023-10-23 10:49:54" modified="2024-03-05 14:24:24" complexity="1" status="Proposed"/>
+				<project author="martin" version="1.0.0" phase="1.0" created="2023-10-23 10:49:54" modified="2026-05-05 16:32:37" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="Model"/>
-				<packageproperties version="1.0" owner="martin" xmiver="Enterprise Architect XMI 2.1/UML 2.1" tpos="0"/>
-				<paths xmlpath="C:\Users\martin\Projects\models\personal-details\personal-details.xml"/>
-				<times created="2023-10-23 10:49:54" modified="2023-11-06 09:30:05"/>
+				<packageproperties version="1.0.0" owner="martin" xmiver="Enterprise Architect XMI 2.1/UML 2.1" tpos="0"/>
+				<paths xmlpath="C:\Users\martin\Projects\repos\personal-details\personal-details.xml"/>
+				<times created="2023-10-23 10:49:54" modified="2026-05-05 16:32:37" lastsavedate="2026-08-10 12:12:12"/>
 				<flags iscontrolled="1" isprotected="0" batchsave="0" batchload="0" usedtd="0" logxml="0" packageFlags="Recurse=1;"/>
 			</element>
 			<element xmi:idref="EAID_544D28C8_26E5_4b31_99BA_B1016CDD1F17" xmi:type="uml:Class" name="Address" scope="public">

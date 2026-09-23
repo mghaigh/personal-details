@@ -1,0 +1,1207 @@
+{
+    "projectTitle": "Personal Details",
+    "projectVersion": "1.0.0",
+    "contentHash": 7169912784139596586,
+    "packageDto": {
+        "dtoMap": {
+            "78108fca-47cf-44bc-90ca-a7799ccf606a": {
+                "packageId": "",
+                "umlVersion": {
+                    "version": "1.0.0",
+                    "author": "martin",
+                    "created": "2023-10-23 10:49:54",
+                    "modified": "2026-05-05 16:32:37"
+                },
+                "umlElement": {
+                    "id": "78108fca-47cf-44bc-90ca-a7799ccf606a",
+                    "umlType": "UmlPackage",
+                    "title": "Personal Details",
+                    "stereotypes": [],
+                    "notes": "Defines a model of the abstract concept of a Person, its properties and relationships. Various types specialize Person such as Adult Borrower &amp; Librarian.",
+                    "tags": {},
+                    "dependencyIds": [],
+                    "contentHash": -7046223860111408
+                },
+                "isRoot": true,
+                "packageHash": 0
+            }
+        },
+        "contentHash": -218432938273244839
+    },
+    "classifierDto": {
+        "dtoMap": {
+            "544d28c8-26e5-4b31-99ba-b1016cdd1f17": {
+                "type": "tech.apigeneration.umlmodels.dto.types.UmlClassDto",
+                "packageId": "78108fca-47cf-44bc-90ca-a7799ccf606a",
+                "umlElement": {
+                    "id": "544d28c8-26e5-4b31-99ba-b1016cdd1f17",
+                    "umlType": "UmlClass",
+                    "title": "Address",
+                    "stereotypes": [],
+                    "notes": "An Address that Borrowers currently or previously have lived at.",
+                    "tags": {},
+                    "dependencyIds": [],
+                    "contentHash": -51549671333690564
+                },
+                "umlVersion": {
+                    "version": "1.0",
+                    "author": "martin",
+                    "created": "2023-01-15 20:50:19",
+                    "modified": "2023-10-23 10:54:26"
+                },
+                "classifierHash": -8226624313179121545,
+                "attributeIds": [
+                    "ed725e2f-0ef9-4a7b-8972-1718ecdd7d32",
+                    "029ffa14-69b9-4966-aade-1a6372780a50",
+                    "cf801c1d-5542-467c-89ec-b9e90a48bdd8",
+                    "30f76974-00e4-47eb-8b9b-ce1bfead05a0"
+                ],
+                "operationIds": [],
+                "realizationIds": [],
+                "associationIds": [
+                    "cf82f858-689a-41d4-a049-0defcdd808a7"
+                ],
+                "generalizationIds": [],
+                "isAbstract": false
+            },
+            "ef153724-f372-4c70-be09-e998c0a97bc2": {
+                "type": "tech.apigeneration.umlmodels.dto.types.UmlClassDto",
+                "packageId": "78108fca-47cf-44bc-90ca-a7799ccf606a",
+                "umlElement": {
+                    "id": "ef153724-f372-4c70-be09-e998c0a97bc2",
+                    "umlType": "UmlClass",
+                    "title": "Person",
+                    "stereotypes": [],
+                    "notes": "",
+                    "tags": {},
+                    "dependencyIds": [],
+                    "contentHash": 51507314825653824
+                },
+                "umlVersion": {
+                    "version": "1.0",
+                    "author": "martin",
+                    "created": "2023-01-15 20:46:18",
+                    "modified": "2023-10-23 10:50:07"
+                },
+                "classifierHash": 6022513401384604170,
+                "attributeIds": [
+                    "b0115a10-5d4c-4a91-a153-e059268c826f",
+                    "c5ef08ec-7f5c-4493-b8f4-6bb51c9c027b"
+                ],
+                "operationIds": [],
+                "realizationIds": [],
+                "associationIds": [
+                    "cf82f858-689a-41d4-a049-0defcdd808a7"
+                ],
+                "generalizationIds": [],
+                "isAbstract": true
+            }
+        },
+        "contentHash": 4839110668974450588
+    },
+    "featureDto": {
+        "dtoMap": {
+            "ed725e2f-0ef9-4a7b-8972-1718ecdd7d32": {
+                "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                "umlElement": {
+                    "id": "ed725e2f-0ef9-4a7b-8972-1718ecdd7d32",
+                    "umlType": "UmlProperty",
+                    "title": "street",
+                    "stereotypes": [],
+                    "notes": "",
+                    "tags": {},
+                    "dependencyIds": [],
+                    "contentHash": 8102325902118801480
+                },
+                "featureHash": 6605334228578582901,
+                "multiplicity": {
+                    "lowerBound": "1",
+                    "upperBound": "1"
+                },
+                "typeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+                "isId": false,
+                "isDerived": false,
+                "isReadOnly": false,
+                "isStatic": false,
+                "isCollection": false
+            },
+            "029ffa14-69b9-4966-aade-1a6372780a50": {
+                "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                "umlElement": {
+                    "id": "029ffa14-69b9-4966-aade-1a6372780a50",
+                    "umlType": "UmlProperty",
+                    "title": "town",
+                    "stereotypes": [],
+                    "notes": "",
+                    "tags": {},
+                    "dependencyIds": [],
+                    "contentHash": -8378634903625439527
+                },
+                "featureHash": -4378932057899549308,
+                "multiplicity": {
+                    "lowerBound": "1",
+                    "upperBound": "1"
+                },
+                "typeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+                "isId": false,
+                "isDerived": false,
+                "isReadOnly": false,
+                "isStatic": false,
+                "isCollection": false
+            },
+            "cf801c1d-5542-467c-89ec-b9e90a48bdd8": {
+                "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                "umlElement": {
+                    "id": "cf801c1d-5542-467c-89ec-b9e90a48bdd8",
+                    "umlType": "UmlProperty",
+                    "title": "country",
+                    "stereotypes": [],
+                    "notes": "",
+                    "tags": {},
+                    "dependencyIds": [],
+                    "contentHash": -8196118208880114731
+                },
+                "featureHash": -4248993126989808960,
+                "multiplicity": {
+                    "lowerBound": "1",
+                    "upperBound": "1"
+                },
+                "typeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+                "isId": false,
+                "isDerived": false,
+                "isReadOnly": false,
+                "isStatic": false,
+                "isCollection": false
+            },
+            "30f76974-00e4-47eb-8b9b-ce1bfead05a0": {
+                "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                "umlElement": {
+                    "id": "30f76974-00e4-47eb-8b9b-ce1bfead05a0",
+                    "umlType": "UmlProperty",
+                    "title": "currently lives at count",
+                    "stereotypes": [],
+                    "notes": "",
+                    "tags": {},
+                    "dependencyIds": [],
+                    "contentHash": -533497653869728720
+                },
+                "featureHash": 6251328000689864556,
+                "multiplicity": {
+                    "lowerBound": "1",
+                    "upperBound": "1"
+                },
+                "typeId": "b5ed2c40-3748-11a8-8737-76ea90739ba9",
+                "isId": false,
+                "isDerived": true,
+                "isReadOnly": false,
+                "isStatic": false,
+                "isCollection": false
+            },
+            "b0115a10-5d4c-4a91-a153-e059268c826f": {
+                "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                "umlElement": {
+                    "id": "b0115a10-5d4c-4a91-a153-e059268c826f",
+                    "umlType": "UmlProperty",
+                    "title": "surname",
+                    "stereotypes": [],
+                    "notes": "",
+                    "tags": {},
+                    "dependencyIds": [],
+                    "contentHash": 6860448383675419936
+                },
+                "featureHash": 8944008602450414941,
+                "multiplicity": {
+                    "lowerBound": "1",
+                    "upperBound": "1"
+                },
+                "typeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+                "isId": false,
+                "isDerived": false,
+                "isReadOnly": false,
+                "isStatic": false,
+                "isCollection": false
+            },
+            "c5ef08ec-7f5c-4493-b8f4-6bb51c9c027b": {
+                "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                "umlElement": {
+                    "id": "c5ef08ec-7f5c-4493-b8f4-6bb51c9c027b",
+                    "umlType": "UmlProperty",
+                    "title": "given name",
+                    "stereotypes": [],
+                    "notes": "",
+                    "tags": {},
+                    "dependencyIds": [],
+                    "contentHash": 7828264568042695181
+                },
+                "featureHash": 456469158253809672,
+                "multiplicity": {
+                    "lowerBound": "1",
+                    "upperBound": "1"
+                },
+                "typeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+                "isId": false,
+                "isDerived": false,
+                "isReadOnly": false,
+                "isStatic": false,
+                "isCollection": false
+            }
+        },
+        "contentHash": 8112776859828446897
+    },
+    "relationshipDto": {
+        "dtoMap": {
+            "cf82f858-689a-41d4-a049-0defcdd808a7": {
+                "type": "tech.apigeneration.umlmodels.dto.types.UmlAssociationDto",
+                "umlElement": {
+                    "id": "cf82f858-689a-41d4-a049-0defcdd808a7",
+                    "umlType": "UmlAssociation",
+                    "title": "",
+                    "stereotypes": [],
+                    "notes": "",
+                    "tags": {},
+                    "dependencyIds": [],
+                    "contentHash": -1801185530256297018
+                },
+                "endA": {
+                    "elementId": "ef153724-f372-4c70-be09-e998c0a97bc2",
+                    "stereotypes": [],
+                    "notes": "",
+                    "tags": {},
+                    "isNavigable": true,
+                    "multiplicity": {
+                        "lowerBound": "1",
+                        "upperBound": "*"
+                    },
+                    "rolePhrase": "is currently lived at by",
+                    "aggregationType": "UmlNone"
+                },
+                "endB": {
+                    "elementId": "544d28c8-26e5-4b31-99ba-b1016cdd1f17",
+                    "stereotypes": [],
+                    "notes": "",
+                    "tags": {},
+                    "isNavigable": true,
+                    "multiplicity": {
+                        "lowerBound": "1",
+                        "upperBound": "1"
+                    },
+                    "rolePhrase": "currently lives at",
+                    "aggregationType": "UmlNone"
+                },
+                "direction": "Unspecified",
+                "relationshipHash": 0,
+                "associationType": "UmlAssociation",
+                "associationClassEnd": null
+            }
+        },
+        "contentHash": -496519215426343901
+    },
+    "diagramDto": {
+        "dtoMap": {
+            "72c976ab-521d-4984-ae7f-485449a2f3a0": {
+                "packageId": "78108fca-47cf-44bc-90ca-a7799ccf606a",
+                "umlElement": {
+                    "id": "72c976ab-521d-4984-ae7f-485449a2f3a0",
+                    "umlType": "UmlDiagram",
+                    "title": "personal-details",
+                    "stereotypes": [],
+                    "notes": "The abstract Person type, which is specialized by the Borrower and Librarian types, and its associations",
+                    "tags": {},
+                    "dependencyIds": [],
+                    "contentHash": 7937272814229785
+                },
+                "diagramHash": 0
+            }
+        },
+        "contentHash": 246055458631332144
+    },
+    "dependencies": [
+        {
+            "projectTitle": "Core Types",
+            "projectVersion": "1.0.2",
+            "contentHash": 6259249220784928511,
+            "packageDto": {
+                "dtoMap": {
+                    "fddba952-32d5-4cf9-a835-0efbc35802ad": {
+                        "packageId": "",
+                        "umlVersion": {
+                            "version": "1.0.2",
+                            "author": "martin",
+                            "created": "2023-01-26 09:25:10",
+                            "modified": "2026-05-04 14:12:58"
+                        },
+                        "umlElement": {
+                            "id": "fddba952-32d5-4cf9-a835-0efbc35802ad",
+                            "umlType": "UmlPackage",
+                            "title": "Core Types",
+                            "stereotypes": [],
+                            "notes": "Updated to add Error type",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 22870928050311311
+                        },
+                        "isRoot": true,
+                        "packageHash": 0
+                    },
+                    "813307fa-9f05-4924-9844-a3e45b6a083d": {
+                        "packageId": "fddba952-32d5-4cf9-a835-0efbc35802ad",
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "martin",
+                            "created": "2026-04-10 06:30:40",
+                            "modified": "2026-04-10 07:41:58"
+                        },
+                        "umlElement": {
+                            "id": "813307fa-9f05-4924-9844-a3e45b6a083d",
+                            "umlType": "UmlPackage",
+                            "title": "Specialized Primitives",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 39879583568259570
+                        },
+                        "isRoot": false,
+                        "packageHash": 0
+                    },
+                    "e3a21f21-1946-4cb0-99b3-49c09b14a961": {
+                        "packageId": "813307fa-9f05-4924-9844-a3e45b6a083d",
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "martin",
+                            "created": "2026-04-08 14:46:05",
+                            "modified": "2026-04-10 06:30:45"
+                        },
+                        "umlElement": {
+                            "id": "e3a21f21-1946-4cb0-99b3-49c09b14a961",
+                            "umlType": "UmlPackage",
+                            "title": "Coordinates",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": -53038691978823273
+                        },
+                        "isRoot": false,
+                        "packageHash": 0
+                    },
+                    "11865aa0-5ce9-4cbd-bd49-f156817c4864": {
+                        "packageId": "fddba952-32d5-4cf9-a835-0efbc35802ad",
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "martin",
+                            "created": "2023-01-26 09:23:41",
+                            "modified": "2023-01-26 09:25:13"
+                        },
+                        "umlElement": {
+                            "id": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+                            "umlType": "UmlPackage",
+                            "title": "Primitives",
+                            "stereotypes": [],
+                            "notes": "Initial version of Primitive types library.",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 41236866278570982
+                        },
+                        "isRoot": false,
+                        "packageHash": 0
+                    }
+                },
+                "contentHash": -4878113810065970060
+            },
+            "classifierDto": {
+                "dtoMap": {
+                    "70255856-a8a7-4870-87e9-6c41930066f8": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlCompoundDto",
+                        "packageId": "fddba952-32d5-4cf9-a835-0efbc35802ad",
+                        "umlElement": {
+                            "id": "70255856-a8a7-4870-87e9-6c41930066f8",
+                            "umlType": "UmlCompound",
+                            "title": "Duration",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 41243340021639714
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "martin",
+                            "created": "2025-03-11 03:12:52",
+                            "modified": "2026-04-09 10:10:49"
+                        },
+                        "classifierHash": -3461322469431993094,
+                        "attributeIds": [
+                            "db03068a-6578-4fba-a4e7-61963a48496a",
+                            "de86ab79-8712-4e02-a832-c0e1e3cc5b0f"
+                        ]
+                    },
+                    "1ee4c13d-dd8c-4c92-9a44-4b9b6534bc82": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlCompoundDto",
+                        "packageId": "fddba952-32d5-4cf9-a835-0efbc35802ad",
+                        "umlElement": {
+                            "id": "1ee4c13d-dd8c-4c92-9a44-4b9b6534bc82",
+                            "umlType": "UmlCompound",
+                            "title": "Error",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": -41217774460589746
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "martin",
+                            "created": "2025-01-03 10:40:28",
+                            "modified": "2026-04-09 05:46:30"
+                        },
+                        "classifierHash": 4393152851688060719,
+                        "attributeIds": [
+                            "f3ac8fa5-0f15-4a29-a41c-fe2eef27ab02",
+                            "501c6f3e-f98a-4874-98b2-26d94985559b",
+                            "077ab6eb-0c66-4ce4-a7ee-d69d4ec342a4",
+                            "74e77eda-5994-43ce-bf58-060e07247379",
+                            "e00ae8cb-82d6-42bd-b13c-64011e3abdc3"
+                        ]
+                    },
+                    "861a642b-1887-4e5d-8af0-0516ac5e9756": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "813307fa-9f05-4924-9844-a3e45b6a083d",
+                        "umlElement": {
+                            "id": "861a642b-1887-4e5d-8af0-0516ac5e9756",
+                            "umlType": "UmlPrimitive",
+                            "title": "Date",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "An ISO 8601 standard representation of a date.",
+                            "tags": {
+                                "format": "date"
+                            },
+                            "dependencyIds": [],
+                            "contentHash": -52129572891750743
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "Martin",
+                            "created": "2021-10-17 12:15:02",
+                            "modified": "2026-04-10 07:15:18"
+                        },
+                        "classifierHash": 5243658530193989178,
+                        "isBaseType": false,
+                        "baseTypeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900"
+                    },
+                    "590ab0a5-c722-4aa2-a1f5-0246962a512c": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "813307fa-9f05-4924-9844-a3e45b6a083d",
+                        "umlElement": {
+                            "id": "590ab0a5-c722-4aa2-a1f5-0246962a512c",
+                            "umlType": "UmlPrimitive",
+                            "title": "Date Time",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "An ISO 8601 standard representation of a date &amp; time.",
+                            "tags": {
+                                "format": "date-time"
+                            },
+                            "dependencyIds": [],
+                            "contentHash": -52084242787298758
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "Martin",
+                            "created": "2021-06-18 12:43:01",
+                            "modified": "2026-04-10 07:15:27"
+                        },
+                        "classifierHash": 5287262069713278257,
+                        "isBaseType": false,
+                        "baseTypeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900"
+                    },
+                    "01e315c6-b0c4-45dd-8d8f-12d3297d2ad7": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "813307fa-9f05-4924-9844-a3e45b6a083d",
+                        "umlElement": {
+                            "id": "01e315c6-b0c4-45dd-8d8f-12d3297d2ad7",
+                            "umlType": "UmlPrimitive",
+                            "title": "Email",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "An email address ",
+                            "tags": {
+                                "format": "email",
+                                "pattern": "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$"
+                            },
+                            "dependencyIds": [],
+                            "contentHash": 52127431265650375
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "martin",
+                            "created": "2026-04-10 05:50:50",
+                            "modified": "2026-04-10 07:15:38"
+                        },
+                        "classifierHash": -5245823890729204052,
+                        "isBaseType": false,
+                        "baseTypeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900"
+                    },
+                    "35c65090-3331-464b-8c3b-273e7dd7f6fa": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "813307fa-9f05-4924-9844-a3e45b6a083d",
+                        "umlElement": {
+                            "id": "35c65090-3331-464b-8c3b-273e7dd7f6fa",
+                            "umlType": "UmlPrimitive",
+                            "title": "URI",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "A representation of a Uniform Resource Identifier as defined in IETF RFC 3986.",
+                            "tags": {
+                                "format": "uri"
+                            },
+                            "dependencyIds": [],
+                            "contentHash": -52132023355839978
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "Martin",
+                            "created": "2021-06-18 12:43:17",
+                            "modified": "2026-04-10 07:15:47"
+                        },
+                        "classifierHash": 5241402726048085661,
+                        "isBaseType": false,
+                        "baseTypeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900"
+                    },
+                    "7ce17c08-3edb-4be4-9718-ea9a19f868bc": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "813307fa-9f05-4924-9844-a3e45b6a083d",
+                        "umlElement": {
+                            "id": "7ce17c08-3edb-4be4-9718-ea9a19f868bc",
+                            "umlType": "UmlPrimitive",
+                            "title": "URL",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "A Uniform Resource Locator (URL) as defined in IETF RFC 1738.",
+                            "tags": {
+                                "pattern": "^https?://[^/\\s]+?\\.[^/\\s]+.*[\\/\\#][A-Za-z0-9]+"
+                            },
+                            "dependencyIds": [],
+                            "contentHash": -52131216421157738
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "martin",
+                            "created": "2026-04-09 07:29:01",
+                            "modified": "2026-04-10 07:15:57"
+                        },
+                        "classifierHash": 5242080124820475933,
+                        "isBaseType": false,
+                        "baseTypeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900"
+                    },
+                    "76f2f48e-360c-4a16-bf8e-8b5737f69a1f": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "813307fa-9f05-4924-9844-a3e45b6a083d",
+                        "umlElement": {
+                            "id": "76f2f48e-360c-4a16-bf8e-8b5737f69a1f",
+                            "umlType": "UmlPrimitive",
+                            "title": "UUID",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "A string representation of a Universally Unique Identifier (UUID) as defined in IETF RFC 9562.",
+                            "tags": {
+                                "format": "uuid"
+                            },
+                            "dependencyIds": [],
+                            "contentHash": 52132004215054337
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "Martin",
+                            "created": "2021-06-18 12:43:10",
+                            "modified": "2026-04-10 07:16:08"
+                        },
+                        "classifierHash": -5241387979249971470,
+                        "isBaseType": false,
+                        "baseTypeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900"
+                    },
+                    "ef8059bb-dc1f-44bd-9408-839af45f96bf": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "e3a21f21-1946-4cb0-99b3-49c09b14a961",
+                        "umlElement": {
+                            "id": "ef8059bb-dc1f-44bd-9408-839af45f96bf",
+                            "umlType": "UmlPrimitive",
+                            "title": "Latitude",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "",
+                            "tags": {
+                                "maximum": "90",
+                                "minimum": "-90"
+                            },
+                            "dependencyIds": [],
+                            "contentHash": 61067304679149889
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "martin",
+                            "created": "2026-04-08 14:46:48",
+                            "modified": "2026-04-10 07:14:57"
+                        },
+                        "classifierHash": 3345484262899093847,
+                        "isBaseType": false,
+                        "baseTypeId": "346f1e4f-0a1d-4621-b5ed-2c40374811a8"
+                    },
+                    "7924df71-9473-4e25-a1e1-ffd73dbded0e": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "e3a21f21-1946-4cb0-99b3-49c09b14a961",
+                        "umlElement": {
+                            "id": "7924df71-9473-4e25-a1e1-ffd73dbded0e",
+                            "umlType": "UmlPrimitive",
+                            "title": "Longitude",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "",
+                            "tags": {
+                                "maximum": "180",
+                                "minimum": "-180"
+                            },
+                            "dependencyIds": [],
+                            "contentHash": -61085498989781410
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "martin",
+                            "created": "2026-04-08 14:46:39",
+                            "modified": "2026-04-10 07:15:06"
+                        },
+                        "classifierHash": -3362995744024848272,
+                        "isBaseType": false,
+                        "baseTypeId": "346f1e4f-0a1d-4621-b5ed-2c40374811a8"
+                    },
+                    "73383101-232d-4d80-b7c0-fc4f266f6a4b": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+                        "umlElement": {
+                            "id": "73383101-232d-4d80-b7c0-fc4f266f6a4b",
+                            "umlType": "UmlPrimitive",
+                            "title": "Boolean",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "A representation of objects that can have two values: true and false.",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": -8856319781074983
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "Martin",
+                            "created": "2021-10-10 12:05:29",
+                            "modified": "2026-04-10 07:14:23"
+                        },
+                        "classifierHash": -8510914892549759199,
+                        "isBaseType": true,
+                        "baseTypeId": null
+                    },
+                    "3968924b-0a9e-4b6a-9bfa-41f6df04cf8f": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+                        "umlElement": {
+                            "id": "3968924b-0a9e-4b6a-9bfa-41f6df04cf8f",
+                            "umlType": "UmlPrimitive",
+                            "title": "Bytes",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "Represents a collection of one or more bytes of information, often used to represent binary data such as compressed files.",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": -8868507871877685
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "Martin",
+                            "created": "2021-12-09 08:39:59",
+                            "modified": "2026-04-28 08:18:24"
+                        },
+                        "classifierHash": -8522644134992499701,
+                        "isBaseType": true,
+                        "baseTypeId": null
+                    },
+                    "346f1e4f-0a1d-4621-b5ed-2c40374811a8": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+                        "umlElement": {
+                            "id": "346f1e4f-0a1d-4621-b5ed-2c40374811a8",
+                            "umlType": "UmlPrimitive",
+                            "title": "Decimal",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "Represents decimal numbers which can include fractions of numbers; as opposed to the Integer type. Decimals are often called floating-point numbers in programming languages.",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": -8837777672255995
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "martin",
+                            "created": "2025-03-04 22:49:49",
+                            "modified": "2026-04-28 08:17:14"
+                        },
+                        "classifierHash": -8493111913849434659,
+                        "isBaseType": true,
+                        "baseTypeId": null
+                    },
+                    "b5ed2c40-3748-11a8-8737-76ea90739ba9": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+                        "umlElement": {
+                            "id": "b5ed2c40-3748-11a8-8737-76ea90739ba9",
+                            "umlType": "UmlPrimitive",
+                            "title": "Integer",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "A whole number, as opposed to a Decimal which can include fractional data. ",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": -8890888727049607
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "martin",
+                            "created": "2026-04-09 14:14:02",
+                            "modified": "2026-04-28 08:15:55"
+                        },
+                        "classifierHash": -8544135915656826303,
+                        "isBaseType": true,
+                        "baseTypeId": null
+                    },
+                    "62e0c380-c021-4edb-8e48-d46bbd4c0900": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+                        "umlElement": {
+                            "id": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+                            "umlType": "UmlPrimitive",
+                            "title": "String",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "A sequence of characters.",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": -8854284188236511
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "Martin",
+                            "created": "2021-10-11 09:11:10",
+                            "modified": "2026-04-10 07:14:50"
+                        },
+                        "classifierHash": -8508974900924022391,
+                        "isBaseType": true,
+                        "baseTypeId": null
+                    },
+                    "49ff0b4c-f0bc-4c84-932c-c1218ef9c945": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlPrimitiveDto",
+                        "packageId": "11865aa0-5ce9-4cbd-bd49-f156817c4864",
+                        "umlElement": {
+                            "id": "49ff0b4c-f0bc-4c84-932c-c1218ef9c945",
+                            "umlType": "UmlPrimitive",
+                            "title": "Unit",
+                            "stereotypes": [
+                                "primitive"
+                            ],
+                            "notes": "Represents 'no meaningful result'. For example in operations that return no value. It's the equivalent, but not the same, as the void return in Java.",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": -8871709582023418
+                        },
+                        "umlVersion": {
+                            "version": "1.0",
+                            "author": "martin",
+                            "created": "2026-04-28 08:06:07",
+                            "modified": "2026-04-28 08:29:13"
+                        },
+                        "classifierHash": -8525721276716294682,
+                        "isBaseType": true,
+                        "baseTypeId": null
+                    }
+                },
+                "contentHash": 6658730683971936767
+            },
+            "featureDto": {
+                "dtoMap": {
+                    "db03068a-6578-4fba-a4e7-61963a48496a": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                        "umlElement": {
+                            "id": "db03068a-6578-4fba-a4e7-61963a48496a",
+                            "umlType": "UmlProperty",
+                            "title": "start time",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 9031326988322374950
+                        },
+                        "featureHash": -4752623214187985319,
+                        "multiplicity": {
+                            "lowerBound": "1",
+                            "upperBound": "1"
+                        },
+                        "typeId": "590ab0a5-c722-4aa2-a1f5-0246962a512c",
+                        "isId": false,
+                        "isDerived": false,
+                        "isReadOnly": false,
+                        "isStatic": false,
+                        "isCollection": false
+                    },
+                    "de86ab79-8712-4e02-a832-c0e1e3cc5b0f": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                        "umlElement": {
+                            "id": "de86ab79-8712-4e02-a832-c0e1e3cc5b0f",
+                            "umlType": "UmlProperty",
+                            "title": "end time",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": -9178354447859521218
+                        },
+                        "featureHash": 1410139876175038000,
+                        "multiplicity": {
+                            "lowerBound": "0",
+                            "upperBound": "1"
+                        },
+                        "typeId": "590ab0a5-c722-4aa2-a1f5-0246962a512c",
+                        "isId": false,
+                        "isDerived": false,
+                        "isReadOnly": false,
+                        "isStatic": false,
+                        "isCollection": false
+                    },
+                    "f3ac8fa5-0f15-4a29-a41c-fe2eef27ab02": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                        "umlElement": {
+                            "id": "f3ac8fa5-0f15-4a29-a41c-fe2eef27ab02",
+                            "umlType": "UmlProperty",
+                            "title": "detail",
+                            "stereotypes": [],
+                            "notes": "A human-readable explanation specific to this occurrence of the problem.",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": -7399990999481546427
+                        },
+                        "featureHash": -1732808752024294448,
+                        "multiplicity": {
+                            "lowerBound": "1",
+                            "upperBound": "1"
+                        },
+                        "typeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+                        "isId": false,
+                        "isDerived": false,
+                        "isReadOnly": false,
+                        "isStatic": false,
+                        "isCollection": false
+                    },
+                    "501c6f3e-f98a-4874-98b2-26d94985559b": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                        "umlElement": {
+                            "id": "501c6f3e-f98a-4874-98b2-26d94985559b",
+                            "umlType": "UmlProperty",
+                            "title": "type",
+                            "stereotypes": [],
+                            "notes": "A URI reference [RFC3986] that identifies the problem type.  This specification encourages that, when dereferenced, it provide human-readable documentation for the problem type (e.g., using HTML [W3C.REC-html5-20141028]).  When this member is not present, its value is assumed to be \"about:blank\".",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 8386607906267278813
+                        },
+                        "featureHash": 1309297525565460344,
+                        "multiplicity": {
+                            "lowerBound": "1",
+                            "upperBound": "1"
+                        },
+                        "typeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+                        "isId": false,
+                        "isDerived": false,
+                        "isReadOnly": false,
+                        "isStatic": false,
+                        "isCollection": false
+                    },
+                    "077ab6eb-0c66-4ce4-a7ee-d69d4ec342a4": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                        "umlElement": {
+                            "id": "077ab6eb-0c66-4ce4-a7ee-d69d4ec342a4",
+                            "umlType": "UmlProperty",
+                            "title": "title",
+                            "stereotypes": [],
+                            "notes": "A short, human-readable summary of the problem type.  It SHOULD NOT change from occurrence to occurrence of the problem, except for purposes of localization (e.g., using proactive content negotiation; see [RFC7231], Section 3.4).",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": -8541434608227468775
+                        },
+                        "featureHash": 7322449765088359108,
+                        "multiplicity": {
+                            "lowerBound": "1",
+                            "upperBound": "1"
+                        },
+                        "typeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+                        "isId": false,
+                        "isDerived": false,
+                        "isReadOnly": false,
+                        "isStatic": false,
+                        "isCollection": false
+                    },
+                    "74e77eda-5994-43ce-bf58-060e07247379": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                        "umlElement": {
+                            "id": "74e77eda-5994-43ce-bf58-060e07247379",
+                            "umlType": "UmlProperty",
+                            "title": "status",
+                            "stereotypes": [],
+                            "notes": "The HTTP status code ([RFC7231], Section 6) generated by the origin server for this occurrence of the problem.",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 414112619714626543
+                        },
+                        "featureHash": 8808400312038132033,
+                        "multiplicity": {
+                            "lowerBound": "1",
+                            "upperBound": "1"
+                        },
+                        "typeId": "b5ed2c40-3748-11a8-8737-76ea90739ba9",
+                        "isId": false,
+                        "isDerived": false,
+                        "isReadOnly": false,
+                        "isStatic": false,
+                        "isCollection": false
+                    },
+                    "e00ae8cb-82d6-42bd-b13c-64011e3abdc3": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlAttributeDto",
+                        "umlElement": {
+                            "id": "e00ae8cb-82d6-42bd-b13c-64011e3abdc3",
+                            "umlType": "UmlProperty",
+                            "title": "instance",
+                            "stereotypes": [],
+                            "notes": "A URI reference that identifies the specific occurrence of the problem.  It may or may not yield further information if dereferenced.",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 8863206027416384753
+                        },
+                        "featureHash": -1385238674774372308,
+                        "multiplicity": {
+                            "lowerBound": "1",
+                            "upperBound": "1"
+                        },
+                        "typeId": "62e0c380-c021-4edb-8e48-d46bbd4c0900",
+                        "isId": false,
+                        "isDerived": false,
+                        "isReadOnly": false,
+                        "isStatic": false,
+                        "isCollection": false
+                    }
+                },
+                "contentHash": 2754596670864419466
+            },
+            "relationshipDto": {
+                "dtoMap": {
+                    "09f7321d-c211-4582-9d7a-fbc32c5c2cc5": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlGeneralizationDto",
+                        "umlElement": {
+                            "id": "09f7321d-c211-4582-9d7a-fbc32c5c2cc5",
+                            "umlType": "UmlGeneralization",
+                            "title": "",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 7284477508260624461
+                        },
+                        "endA": {
+                            "elementId": "861a642b-1887-4e5d-8af0-0516ac5e9756"
+                        },
+                        "endB": {
+                            "elementId": "62e0c380-c021-4edb-8e48-d46bbd4c0900"
+                        },
+                        "direction": "SourceToDestination",
+                        "relationshipHash": 0
+                    },
+                    "f8db1d85-ec67-48c0-930c-14766153a84c": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlGeneralizationDto",
+                        "umlElement": {
+                            "id": "f8db1d85-ec67-48c0-930c-14766153a84c",
+                            "umlType": "UmlGeneralization",
+                            "title": "",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 7284477508260624461
+                        },
+                        "endA": {
+                            "elementId": "590ab0a5-c722-4aa2-a1f5-0246962a512c"
+                        },
+                        "endB": {
+                            "elementId": "62e0c380-c021-4edb-8e48-d46bbd4c0900"
+                        },
+                        "direction": "SourceToDestination",
+                        "relationshipHash": 0
+                    },
+                    "a559b4f9-d1a9-4582-91b8-98086a479c67": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlGeneralizationDto",
+                        "umlElement": {
+                            "id": "a559b4f9-d1a9-4582-91b8-98086a479c67",
+                            "umlType": "UmlGeneralization",
+                            "title": "",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 7284477508260624461
+                        },
+                        "endA": {
+                            "elementId": "01e315c6-b0c4-45dd-8d8f-12d3297d2ad7"
+                        },
+                        "endB": {
+                            "elementId": "62e0c380-c021-4edb-8e48-d46bbd4c0900"
+                        },
+                        "direction": "SourceToDestination",
+                        "relationshipHash": 0
+                    },
+                    "81b0b78b-1109-45bc-968e-e21cded4fce5": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlGeneralizationDto",
+                        "umlElement": {
+                            "id": "81b0b78b-1109-45bc-968e-e21cded4fce5",
+                            "umlType": "UmlGeneralization",
+                            "title": "",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 7284477508260624461
+                        },
+                        "endA": {
+                            "elementId": "35c65090-3331-464b-8c3b-273e7dd7f6fa"
+                        },
+                        "endB": {
+                            "elementId": "62e0c380-c021-4edb-8e48-d46bbd4c0900"
+                        },
+                        "direction": "SourceToDestination",
+                        "relationshipHash": 0
+                    },
+                    "c8a2bc47-190c-4892-bf02-089aa95a741b": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlGeneralizationDto",
+                        "umlElement": {
+                            "id": "c8a2bc47-190c-4892-bf02-089aa95a741b",
+                            "umlType": "UmlGeneralization",
+                            "title": "",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 7284477508260624461
+                        },
+                        "endA": {
+                            "elementId": "7ce17c08-3edb-4be4-9718-ea9a19f868bc"
+                        },
+                        "endB": {
+                            "elementId": "62e0c380-c021-4edb-8e48-d46bbd4c0900"
+                        },
+                        "direction": "SourceToDestination",
+                        "relationshipHash": 0
+                    },
+                    "2e05d98a-7baf-4f1c-8365-d15ed57a23ae": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlGeneralizationDto",
+                        "umlElement": {
+                            "id": "2e05d98a-7baf-4f1c-8365-d15ed57a23ae",
+                            "umlType": "UmlGeneralization",
+                            "title": "",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 7284477508260624461
+                        },
+                        "endA": {
+                            "elementId": "76f2f48e-360c-4a16-bf8e-8b5737f69a1f"
+                        },
+                        "endB": {
+                            "elementId": "62e0c380-c021-4edb-8e48-d46bbd4c0900"
+                        },
+                        "direction": "SourceToDestination",
+                        "relationshipHash": 0
+                    },
+                    "407b58ca-0897-401d-b5d5-b2d69e623d9e": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlGeneralizationDto",
+                        "umlElement": {
+                            "id": "407b58ca-0897-401d-b5d5-b2d69e623d9e",
+                            "umlType": "UmlGeneralization",
+                            "title": "",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 7284477508260624461
+                        },
+                        "endA": {
+                            "elementId": "ef8059bb-dc1f-44bd-9408-839af45f96bf"
+                        },
+                        "endB": {
+                            "elementId": "346f1e4f-0a1d-4621-b5ed-2c40374811a8"
+                        },
+                        "direction": "SourceToDestination",
+                        "relationshipHash": 0
+                    },
+                    "2b8cb9da-354a-427c-8988-0fab7cbd014a": {
+                        "type": "tech.apigeneration.umlmodels.dto.types.UmlGeneralizationDto",
+                        "umlElement": {
+                            "id": "2b8cb9da-354a-427c-8988-0fab7cbd014a",
+                            "umlType": "UmlGeneralization",
+                            "title": "",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": 7284477508260624461
+                        },
+                        "endA": {
+                            "elementId": "7924df71-9473-4e25-a1e1-ffd73dbded0e"
+                        },
+                        "endB": {
+                            "elementId": "346f1e4f-0a1d-4621-b5ed-2c40374811a8"
+                        },
+                        "direction": "SourceToDestination",
+                        "relationshipHash": 0
+                    }
+                },
+                "contentHash": 4558704195450002464
+            },
+            "diagramDto": {
+                "dtoMap": {
+                    "5c63cedf-3a7d-4934-86d7-7d0affb8ba7f": {
+                        "packageId": "813307fa-9f05-4924-9844-a3e45b6a083d",
+                        "umlElement": {
+                            "id": "5c63cedf-3a7d-4934-86d7-7d0affb8ba7f",
+                            "umlType": "UmlDiagram",
+                            "title": "specialized-primitives",
+                            "stereotypes": [],
+                            "notes": "",
+                            "tags": {},
+                            "dependencyIds": [],
+                            "contentHash": -30313364022236186
+                        },
+                        "diagramHash": 0
+                    }
+                },
+                "contentHash": -939714283299112957
+            },
+            "dependencies": []
+        }
+    ]
+}
